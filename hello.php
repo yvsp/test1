@@ -1,8 +1,8 @@
 <? php
 
-echo '<h1 style="color:green"> Hello World, THis is robo </h1>'
+echo '<h1 style="color:green"> Hello World, THis is robo </h1>';
 
-for ($i=0; $<100; $i++ ){
+for ($i=0; $i<100; $i++ ){
   if ($i % 2 == 0 ) {
     echo "<span style='color:green'>$i is Even number</span>";
   }else {
